@@ -1,0 +1,112 @@
+.name-box {
+    width: 950px;
+    height: 50px;
+    border: 8px solid #33C69A;
+    border-radius: 40px;
+    box-sizing: border-box;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4F4F4;
+    font-size: 18px;
+    padding: 0 20px;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.type-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.icon-container {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.type-icon {
+    margin-left: 10px;
+}
+
+.price-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.price-button {
+    margin-left: 50px;
+    padding: 10px 20px;
+    background-color: #E4ECF7;
+    border: none;
+    border-radius: 30px;
+    color: #425466;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-text {
+    margin-left: 20px;
+    font-size: 16px;
+    color: #425466;
+}
+
+.write-container {
+    margin-left: 125px;
+    width: 80%;
+    height: 300px;
+    font-size: 24px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 60px;
+}
+
+.client-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.email-box {
+    width: 955px;
+    height: 50px;
+    border: 2px solid #33C69A;
+    border-radius: 40px;
+    box-sizing: border-box;
+    margin-left: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4F4F4;
+    font-size: 18px;
+    padding: 0 20px;
+}
+
+.submit-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.EditButton, .DeleteButton {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.heading2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 125px;
+}

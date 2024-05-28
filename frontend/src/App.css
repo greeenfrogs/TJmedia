@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.Vector {
+  position: relative;
+  width: 45px;
+  height: 23px;
+  left: 9361px;
+  top: 491px;
+  transition: background-color 0.3s; /* 추가: 배경 색상에 대한 트랜지션 */
+}
+
+.Vector:hover .circle {
+  opacity: 1;
+  background-color: var(--surface---light); 
+}
+
+button:hover {
+  background: #8BD2BA;
+.circle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 0.3s; /* 추가: 투명도에 대한 트랜지션 */
+  background-color: var(—surface—light); 
+}
+}

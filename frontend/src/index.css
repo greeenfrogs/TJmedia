@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'IBM Plex Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'IBM Plex Sans KR', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root{
+    /* Color styles */
+  --theme---primary---solids: #33C69A;
+  --theme---primary---light: #8BD2BA;
+  --theme---primary---dark: #33C69A;
+  --theme---secondary---solids: #E4ECF7;
+  --theme---secondary---light: #EBF2FA;
+  --theme---secondary---dark: #A6B7D4;
+  --theme---danger---solids: #F16063;
+  --theme---danger---light: #F68E87;
+  --theme---danger---dark: #CF4655;
+  --theme---dark---solids: #16192C;
+  --theme---dark---light: #505780;
+  --theme---dark---dark: #101225;
+  --theme---icon---solids: #B7D019;
+  --text---heading---dark: #27272E;
+  --text---heading---light: #FFFFFF;
+  --text---body---light: #F2F2F2;
+  --text---body---dark: #425466;
+  --text---body---muted: #718096;
+  --gray--50: #FAFAFA;
+  --gray--100: #F7FAFC;
+  --gray--200: #EDF2F7;
+  --gray--300: #E2E8F0;
+  --gray--400: #CBD5E0;
+  --gray--500: #A0AEC0;
+  --gray--600: #718096;
+  --gray--700: #4A5568;
+  --gray--800: #2D3748;
+  --gray--900: #1A202C;
+  --surface---primary: #FFFFFF;
+  --surface---secondary: #F7FAFC;
+  --surface---light: #D5D5DC;
+  --surface---dark: #17171B;
+  --border---light: #EDF2F7;
+
+  /* Text-size styles */
+  --display1: 80px;
+  --display2: 72px;
+  --display3: 64px;
+  --display4: 56px;
+  --display5: 48px;
+  --display6: 40px;
+  --heading1: 36px;
+  --heading2: 28px;
+  --heading3: 20px;
+  --heading4: 18px;
+  --heading5: 16px;
+  --heading6: 14px;
+  --extra--large--text: 28px;
+  --large--text: 20px;
+  --small--text: 14px;
+  --extra--small--text: 12px;
+  --small: 10px;
+  --surtitle: 14px;
+  --caption: 12px;
+  --large-button-size: 14px;
+  --base-button-size: 12px;
+  --small-button-size: 10px;
+
+  /* Effect styles */
+  --shadow--inner: inset 0px 2px 4px rgba(0, 0, 0, 0.06);
+  --shadow--drop--1:  0px 3px 8px rgba(50, 50, 71, 0.05), 1px 1px 1px rgba(12, 26, 75, 0.24);
+  --shadow--drop--2:  0px 4px 20px rgba(50, 50, 71, 0.08), 0px 0px 1px rgba(12, 26, 75, 0.1);
+  --shadow--drop--3:  0px 10px 16px rgba(20, 37, 63, 0.06), 0px 0px 1px rgba(12, 26, 75, 0.1);
+  --shadow--drop--4:  0px 4px 20px rgba(50, 50, 71, 0.08), 0px 8px 10px rgba(12, 26, 75, 0.1);
+
+}
+
+.introduce_image{
+  width: 100%;
+  height: auto;
+}
+
+.introduce_container{
+  margin-top: 1px;
+  margin-bottom: 5px;
+}

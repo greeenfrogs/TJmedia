@@ -1,0 +1,69 @@
+.request-button,
+.free-button,
+.activity-button,
+.MYPAGE-button,
+.FAG-button {
+  font-family: 'IBM Plex Sans KR', sans-serif;
+  font-size: var(--heading3);
+  font-weight: bold;
+  background-color: transparent;
+  color: var(--theme--dark--solids); 
+  padding: 8px 32px;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s, background-color 0.3s; 
+  text-decoration: none; 
+}
+
+.request-button:hover,
+.free-button:hover,
+.activity-button:hover,
+.MYPAGE-button:hover,
+.FAG-button:hover {
+  color: var(--theme---primary---solids); 
+  background-color: transparent;
+}
+
+.logo_container {
+    margin-right: 5px; 
+  }
+  
+.logo_image {
+  width: 100px;
+  height: auto;
+}
+
+.HeaderDiv {
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 15px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.greenfrogTitle {
+  font-family: 'IBM Plex Sans KR', sans-serif;
+  font-size: var(--heading2);
+  font-weight: 900;
+  color: var(--theme---primary---solids);
+}
+
+h1 {
+  font-family: 'IBM Plex Sans KR', sans-serif;
+  font-size: var(--small--text);
+  color: var(--theme--dark--solids);
+}
+
+.greenfrogExplain {
+  color: var(--theme---primary---solids);
+}
+
+li {
+  list-style: none;
+  margin : 10 10 10 10;
+  padding: 10 10 10 10;
+  border: 0px;
+  float: left;
+}

@@ -1,0 +1,14 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.pagination button {
+    margin: 0 5px;
+}
+
+.pagination button.active {
+    font-weight: bold;
+}

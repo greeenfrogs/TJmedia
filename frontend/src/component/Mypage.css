@@ -1,0 +1,152 @@
+/* intro랑 버튼 부분이랑 서로 세로로 둘려고 함 */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    gap: 30px;
+
+    position: absolute;
+    left: 100px;
+    top: 650px; /* 화면의 위에서부터 150px 아래로 */
+    padding-right: 60px; /* 오른쪽 패딩 */
+    padding-bottom: 400px;
+    padding-top: 50px;
+    border-right: 1px solid var(--theme---primary---solids);
+    margin-right: 30px;
+}
+
+.wrapper {
+    display: flex;
+    justify-self: space-between;
+    align-items: center;
+
+    margin-bottom: 50px;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 7px;
+
+    background-color: var(--theme---secondary---solids);
+    border-radius: 10px;
+    border-color: var(--border---light);
+    box-shadow: var(--shadow--drop--1);
+    
+    text-shadow: var(--shadow--drop--1);
+    font-family: 'IBM Plex Sans KR', -apple-system;
+    font-size: var(--large-button-size);
+    color: var(--text--heading---dark);
+
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.info-button {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-size: var(--heading3);
+    font-weight: bold;
+    background-color: transparent;
+    color: var(--theme--dark--solids);
+    padding: 8px 32px;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    transition: color 0.3s, background-color 0.3s;
+    text-decoration: none;
+}
+
+button:hover {
+    color: var(--theme---primary---solids); 
+    background-color: transparent;
+}
+button:hover {
+    color: var(--theme---primary---solids);
+    transform: scale(1.05);
+}
+button:active {
+    background-color: #d0d0d0; /* 클릭 시 배경색 */
+    transform: scale(0.95); /* 클릭 시 축소 효과 */
+}
+
+textarea:focus,input:focus {
+    outline: 2px solid var(--theme---primary---solids);
+}
+
+h2 {
+    font-size: var(--heading2);
+}
+ul {
+    flex-direction: row;
+    margin: 20px;
+}
+
+li{
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+
+.block {
+    background-color: var(--theme---secondary---solids);
+    border-radius: 15px;
+    border: none;
+    box-shadow: var(--shadow--drop--1);
+
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 400px;
+    height: auto;
+}
+.block-short {
+    background-color: var(--theme---secondary---solids);
+    border-radius: 15px;
+    border: none;
+    box-shadow: var(--shadow--drop--1);
+
+    text-align: left;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.block-long {
+    background-color: var(--theme---secondary---solids);
+    border-radius: 15px;
+    border: none;
+    box-shadow: var(--shadow--drop--1);
+
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 400px;
+    height: 600px;
+}
+
+.attachment {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    background-image: url(./buttonfile/attachment_button.svg);
+    width: 113px; /* 이미지 크기에 맞게 조절하세요 */
+    height: 27px; /* 이미지 크기에 맞게 조절하세요 */
+    text-indent: -9999px; /* 텍스트 숨김 */
+    cursor: pointer;
+}
+
+.attachment input[type=file] {
+    position: absolute;
+    width: 113px;
+    height: 27px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+.submitPage {
+    width: 70px;
+}
